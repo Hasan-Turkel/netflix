@@ -20,9 +20,9 @@ const HeroSection = async ({ title, overview, id }) => {
           {/* //? next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir. */}
           <Link
             href={`/movies/${id}`}
-            className="bg-white rounded-md py-1 md:py-2 px-2 md:px-4 w-auto text-xs lg:text-lg font-semibold flex flex-row items-center hover:bg-neutral-300 transition"
+            className="bg-gray-400 rounded-md py-1 md:py-2 px-2 md:px-4 w-auto text-xs lg:text-lg font-semibold flex flex-row items-center hover:bg-neutral-300 transition"
           >
-            <PlayIcon className="w-4 md:w-7 text-black mr-1" />
+            <PlayIcon className="w-4 md:w-7 text-slate-950 mr-1" />
             Play
           </Link>
         </div>
